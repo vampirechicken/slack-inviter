@@ -13,6 +13,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rake (11.2.2)
     rest-client (1.7.3)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
@@ -31,8 +32,12 @@ DEPENDENCIES
   minitest
   puma (~> 2.13)
   rack-test
+  rake
   rest-client (~> 1.7.0)
   sinatra (~> 1.4)
 
+RUBY VERSION
+   ruby 2.3.1p112
+
 BUNDLED WITH
-   1.10.6
+   1.12.5
